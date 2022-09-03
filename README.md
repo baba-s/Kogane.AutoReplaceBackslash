@@ -1,6 +1,6 @@
 # Kogane Auto Replace Backslash
 
-System.IO.Path や System.IO.Directory で取得できるパスの `\` を自動で `/` に変換するパッケージ
+System.IO の Path や Directory で取得できるパスの `\` を自動で `/` に変換するパッケージ
 
 ## 使い方
 
