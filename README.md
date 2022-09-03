@@ -1,6 +1,10 @@
 # Kogane Auto Replace Backslash
 
-System.IO.Path や System.IO.Directory で取得できるパスのバックスラッシュを自動でスラッシュに変換するパッケージ
+System.IO.Path や System.IO.Directory で取得できるパスの `\` を自動で `/` に変換するパッケージ
+
+## 使い方
+
+本パッケージを導入するだけで System.IO の Path や Directory で取得できるパスの `\` が自動で `/` に変換されます  
 
 ## 使用例
 
@@ -151,3 +155,19 @@ public class Example : MonoBehaviour
     }
 }
 ```
+
+## DOTween でコンパイルエラーが発生する場合
+
+![2022-09-03_100125](https://user-images.githubusercontent.com/6134875/188249755-ac80d782-d7d2-4c49-82c1-b4163a80e9c2.png)
+
+本パッケージ導入後に DOTween でコンパイルエラーが発生する場合は
+
+![2022-09-03_100146](https://user-images.githubusercontent.com/6134875/188249762-faa65a86-523e-434f-8264-c19ea23af9ad.png)
+
+Unity メニュー「Tools > Demigiant > DOTween Utility Panel」を選択して
+
+![2022-09-03_100214](https://user-images.githubusercontent.com/6134875/188249789-97a2b1fa-3a00-4819-a0a9-7550f45183d0.png)
+
+「Create ASMDEF...」を押すことでエラーが解消されます
+
+
