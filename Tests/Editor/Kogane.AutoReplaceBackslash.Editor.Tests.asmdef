@@ -1,0 +1,18 @@
+{
+    "name": "Kogane.AutoReplaceBackslash.Editor.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9592cc405ae44a32a82ba87a1cae022b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}
