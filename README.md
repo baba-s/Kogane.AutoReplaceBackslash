@@ -4,7 +4,7 @@ System.IO の Path や Directory で取得できるパスの `\` を自動で `/
 
 ## 使い方
 
-本パッケージを導入するだけで System.IO の Path や Directory で取得できるパスの `\` が自動で `/` に変換されます
+本パッケージを導入するだけで System.IO の Path や Directory で取得できるパスの `\` が自動で `/` に変換されます  
 
 ## 使用例
 
