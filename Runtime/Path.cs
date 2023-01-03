@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Kogane.Internal;
 
 public static class Path
