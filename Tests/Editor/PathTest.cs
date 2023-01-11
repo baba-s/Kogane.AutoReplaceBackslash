@@ -1,4 +1,4 @@
-﻿using Kogane.Internal;
+using Kogane.Internal;
 using NUnit.Framework;
 
 namespace Kogane.Test
